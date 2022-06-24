@@ -8,7 +8,7 @@
 
   <project path="bionic" name="crdroidandroid/android_bionic" remote="crdroid" />
 
-  <project path="build/make" name="crdroidandroid/android_build" remote="crdroid" >
+  <project path="build/make" name="crdroid-security/android_build" remote="crdroid" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -42,8 +42,8 @@
   <project path="external/zlib" name="crdroidandroid/android_external_zlib" remote="crdroid" />
 
   <project path="frameworks/av" name="crdroidandroid/android_frameworks_av" remote="crdroid" />
-  <project path="frameworks/base" name="crdroidandroid/android_frameworks_base" remote="crdroid" />
-  <project path="frameworks/native" name="crdroidandroid/android_frameworks_native" remote="crdroid" />
+  <project path="frameworks/base" name="crdroid-security/android_frameworks_base" remote="crdroid" />
+  <project path="frameworks/native" name="crdroid-security/android_frameworks_native" remote="crdroid" />
   <project path="frameworks/opt/net/ims" name="crdroidandroid/android_frameworks_opt_net_ims" remote="crdroid" />
   <project path="frameworks/opt/net/wifi" name="crdroidandroid/android_frameworks_opt_net_wifi" remote="crdroid" />
   <project path="frameworks/opt/telephony" name="crdroidandroid/android_frameworks_opt_telephony" remote="crdroid" />
@@ -63,14 +63,14 @@
   <project path="packages/apps/Backgrounds" name="crdroidandroid/android_packages_apps_Backgrounds" remote="crdroid" />
   <project path="packages/apps/Bluetooth" name="crdroidandroid/android_packages_apps_Bluetooth" remote="crdroid" />
   <project path="packages/apps/Contacts" name="crdroidandroid/android_packages_apps_Contacts" remote="crdroid" />
-  <project path="packages/apps/Dialer" name="crdroidandroid/android_packages_apps_Dialer" remote="crdroid" />
+  <project path="packages/apps/Dialer" name="crdroid-security/android_packages_apps_Dialer" remote="crdroid" />
   <project path="packages/apps/Etar" name="crdroidandroid/android_packages_apps_Etar" remote="crdroid" />
   <project path="packages/apps/Launcher3" name="crdroidandroid/android_packages_apps_Launcher3" remote="crdroid" />
   <project path="packages/apps/LineageParts" name="crdroidandroid/android_packages_apps_LineageParts" remote="crdroid" />
   <project path="packages/apps/Messaging" name="crdroidandroid/android_packages_apps_Messaging" remote="crdroid" />
   <project path="packages/apps/OmniStyle" name="crdroidandroid/android_packages_apps_OmniStyle" remote="crdroid" />
   <project path="packages/apps/PermissionController" name="crdroidandroid/android_packages_apps_PackageInstaller" remote="crdroid" />
-  <project path="packages/apps/Settings" name="crdroidandroid/android_packages_apps_Settings" remote="crdroid" />
+  <project path="packages/apps/Settings" name="crdroid-security/android_packages_apps_Settings" remote="crdroid" />
   <project path="packages/apps/SettingsIntelligence" name="crdroidandroid/android_packages_apps_SettingsIntelligence" remote="crdroid" />
   <project path="packages/apps/SetupWizard" name="crdroidandroid/android_packages_apps_SetupWizard" remote="crdroid" />
   <project path="packages/apps/ThemePicker" name="crdroidandroid/android_packages_apps_ThemePicker" remote="crdroid" />
@@ -98,7 +98,7 @@
   <project path="system/libhidl" name="crdroidandroid/android_system_libhidl" remote="crdroid" />
   <project path="system/netd" name="crdroidandroid/android_system_netd" remote="crdroid" />
   <project path="system/security" name="crdroidandroid/android_system_security" remote="crdroid" />
-  <project path="system/sepolicy" name="crdroidandroid/android_system_sepolicy" remote="crdroid" />
+  <project path="system/sepolicy" name="crdroid-security/android_system_sepolicy" remote="crdroid" />
   <project path="system/update_engine" name="crdroidandroid/android_system_update_engine" remote="crdroid" />
 
   <project path="vendor/addons" name="crdroidandroid/android_vendor_addons" remote="crdroid" />
