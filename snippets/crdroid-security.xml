@@ -17,6 +17,7 @@
   <project path="frameworks/av" name="crdroid-security/android_frameworks_av" remote="crdroid" />
   <project path="frameworks/base" name="crdroid-security/android_frameworks_base" remote="crdroid" />
   <project path="frameworks/native" name="crdroid-security/android_frameworks_native" remote="crdroid" />
+  <project path="frameworks/opt/telephony" name="crdroid-security/android_frameworks_opt_telephony" remote="crdroid" />
 
   <project path="packages/apps/Bluetooth" name="crdroid-security/android_packages_apps_Bluetooth" remote="crdroid" />
   <project path="packages/apps/Contacts" name="crdroid-security/android_packages_apps_Contacts" remote="crdroid" />
