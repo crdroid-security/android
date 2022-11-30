@@ -45,7 +45,7 @@
   <!--<project path="frameworks/base" name="crdroidandroid/android_frameworks_base" remote="crdroid" />-->
   <!--<project path="frameworks/native" name="crdroidandroid/android_frameworks_native" remote="crdroid" />-->
   <project path="frameworks/opt/net/ims" name="crdroidandroid/android_frameworks_opt_net_ims" remote="crdroid" />
-  <project path="frameworks/opt/net/wifi" name="crdroidandroid/android_frameworks_opt_net_wifi" remote="crdroid" />
+  <!--<project path="frameworks/opt/net/wifi" name="crdroidandroid/android_frameworks_opt_net_wifi" remote="crdroid" />-->
   <!--<project path="frameworks/opt/telephony" name="crdroidandroid/android_frameworks_opt_telephony" remote="crdroid" />-->
   <project path="frameworks/support/lottie" name="crdroidandroid/android_frameworks_support_lottie" remote="crdroid" />
 
@@ -69,7 +69,7 @@
   <project path="packages/apps/LineageParts" name="crdroidandroid/android_packages_apps_LineageParts" remote="crdroid" />
   <project path="packages/apps/Messaging" name="crdroidandroid/android_packages_apps_Messaging" remote="crdroid" />
   <project path="packages/apps/OmniStyle" name="crdroidandroid/android_packages_apps_OmniStyle" remote="crdroid" />
-  <project path="packages/apps/PermissionController" name="crdroidandroid/android_packages_apps_PackageInstaller" remote="crdroid" />
+  <!--<project path="packages/apps/PermissionController" name="crdroidandroid/android_packages_apps_PackageInstaller" remote="crdroid" />-->
   <!--<project path="packages/apps/Settings" name="crdroidandroid/android_packages_apps_Settings" remote="crdroid" />-->
   <project path="packages/apps/SettingsIntelligence" name="crdroidandroid/android_packages_apps_SettingsIntelligence" remote="crdroid" />
   <project path="packages/apps/SetupWizard" name="crdroidandroid/android_packages_apps_SetupWizard" remote="crdroid" />

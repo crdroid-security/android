@@ -17,11 +17,13 @@
   <project path="frameworks/av" name="crdroid-security/android_frameworks_av" remote="crdroid" />
   <project path="frameworks/base" name="crdroid-security/android_frameworks_base" remote="crdroid" />
   <project path="frameworks/native" name="crdroid-security/android_frameworks_native" remote="crdroid" />
+  <project path="frameworks/opt/net/wifi" name="crdroid-security/android_frameworks_opt_net_wifi" remote="crdroid" />
   <project path="frameworks/opt/telephony" name="crdroid-security/android_frameworks_opt_telephony" remote="crdroid" />
 
   <project path="packages/apps/Bluetooth" name="crdroid-security/android_packages_apps_Bluetooth" remote="crdroid" />
   <project path="packages/apps/Contacts" name="crdroid-security/android_packages_apps_Contacts" remote="crdroid" />
   <project path="packages/apps/Dialer" name="crdroid-security/android_packages_apps_Dialer" remote="crdroid" />
+  <project path="packages/apps/PermissionController" name="crdroid-security/android_packages_apps_PackageInstaller" remote="crdroid" />
   <project path="packages/apps/Settings" name="crdroid-security/android_packages_apps_Settings" remote="crdroid" />
   <project path="packages/services/Telecomm" name="crdroid-security/android_packages_services_Telecomm" remote="crdroid" />
 
