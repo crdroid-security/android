@@ -14,6 +14,8 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
 
+  <project path="external/zlib" name="crdroid-security/android_external_zlib" remote="crdroid" />
+
   <project path="frameworks/av" name="crdroid-security/android_frameworks_av" remote="crdroid" />
   <project path="frameworks/base" name="crdroid-security/android_frameworks_base" remote="crdroid" />
   <project path="frameworks/native" name="crdroid-security/android_frameworks_native" remote="crdroid" />
