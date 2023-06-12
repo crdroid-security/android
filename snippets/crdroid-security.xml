@@ -27,13 +27,17 @@
   <project path="packages/apps/Dialer" name="crdroid-security/android_packages_apps_Dialer" remote="crdroid" />
   <project path="packages/apps/PermissionController" name="crdroid-security/android_packages_apps_PackageInstaller" remote="crdroid" />
   <project path="packages/apps/Settings" name="crdroid-security/android_packages_apps_Settings" remote="crdroid" />
+  <project path="packages/providers/MediaProvider" name="crdroid-security/android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/services/Telecomm" name="crdroid-security/android_packages_services_Telecomm" remote="crdroid" />
   <project path="packages/services/Telephony" name="crdroid-security/android_packages_services_Telephony" remote="crdroid" />
 
   <project path="system/bt" name="crdroid-security/android_system_bt" remote="crdroid" />
   <project path="system/core" name="crdroid-security/android_system_core" remote="crdroid" />
+  <project path="system/nfc" name="crdroid-security/android_system_nfc" groups="pdk" />
   <project path="system/sepolicy" name="crdroid-security/android_system_sepolicy" remote="crdroid" />
 
+  <project path="vendor/nxp/opensource/pn5xx/halimpl" name="crdroid-security/android_vendor_nxp_opensource_halimpl" revision="lineage-17.1-pn5xx" />
+  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="crdroid-security/android_vendor_nxp_opensource_external_libnfc-nci" />
   <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="crdroid-security/android_vendor_qcom_opensource_packages_apps_Bluetooth" remote="crdroid" />
   <project path="vendor/qcom/opensource/commonsys/system/bt" name="crdroid-security/android_vendor_qcom_opensource_system_bt" remote="crdroid" />
   <project path="vendor/lineage" name="crdroid-security/android_vendor_crdroid" remote="crdroid" />
