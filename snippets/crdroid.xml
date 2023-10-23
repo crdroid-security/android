@@ -31,7 +31,7 @@
   <project path="external/jemalloc_new" name="crdroidandroid/android_external_jemalloc-new" remote="crdroid" />
   <project path="external/libjpeg-turbo" name="crdroidandroid/android_external_libjpeg-turbo" remote="crdroid" />
   <project path="external/libpng" name="crdroidandroid/android_external_libpng" remote="crdroid" />
-  <project path="external/libvpx" name="crdroidandroid/android_external_libvpx" remote="crdroid" />
+  <!--<project path="external/libvpx" name="crdroidandroid/android_external_libvpx" remote="crdroid" />-->
   <!--<project path="external/libxml2" name="crdroidandroid/android_external_libxml2" remote="crdroid" />-->
   <project path="external/libunwind_llvm" name="crdroidandroid/android_external_libunwind_llvm" remote="crdroid" />
   <project path="external/libyuv" name="crdroidandroid/android_external_libyuv" remote="crdroid" />
