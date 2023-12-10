@@ -25,6 +25,7 @@
   <project path="external/chromium-webview/prebuilt/x86" name="LineageOS/android_external_chromium-webview_prebuilt_x86" groups="pdk" revision="main" />
   <project path="external/chromium-webview/prebuilt/x86_64" name="LineageOS/android_external_chromium-webview_prebuilt_x86_64" groups="pdk" revision="main" />
   <project path="external/freetype" name="crdroid-security/android_external_freetype" groups="pdk" />
+  <project path="external/libcups" name="crdroid-security/android_external_libcups" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/libvpx" name="crdroid-security/android_external_libvpx" remote="crdroid" />
   <project path="external/libxml2" name="crdroid-security/android_external_libxml2" remote="crdroid" />
   <project path="external/webp" name="LineageOS/android_external_webp" groups="pdk,qcom_msm8x26" revision="lineage-18.1" />
@@ -48,12 +49,14 @@
   <project path="packages/apps/TvSettings" name="crdroid-security/android_packages_apps_TvSettings" groups="pdk-fs" />
   <project path="packages/providers/MediaProvider" name="crdroid-security/android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/TelephonyProvider" name="crdroid-security/android_packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/services/BuiltInPrintService" name="crdroid-security/android_packages_services_BuiltInPrintService" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/services/Telecomm" name="crdroid-security/android_packages_services_Telecomm" remote="crdroid" />
   <project path="packages/services/Telephony" name="crdroid-security/android_packages_services_Telephony" remote="crdroid" />
 
   <project path="system/bt" name="crdroid-security/android_system_bt" remote="crdroid" />
   <project path="system/ca-certificates" name="crdroid-security/android_system_ca-certificates" groups="pdk" />
   <project path="system/core" name="crdroid-security/android_system_core" remote="crdroid" />
+  <project path="system/netd" name="crdroid-security/android_system_netd" remote="crdroid" />
   <project path="system/nfc" name="crdroid-security/android_system_nfc" groups="pdk" />
   <project path="system/sepolicy" name="crdroid-security/android_system_sepolicy" remote="crdroid" />
 
