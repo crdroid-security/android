@@ -28,6 +28,7 @@
   <project path="external/libcups" name="crdroid-security/android_external_libcups" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/libvpx" name="crdroid-security/android_external_libvpx" remote="crdroid" />
   <project path="external/libxml2" name="crdroid-security/android_external_libxml2" remote="crdroid" />
+  <project path="external/pdfium" name="crdroid-security/android_external_pdfium" groups="pdk" />
   <project path="external/webp" name="LineageOS/android_external_webp" groups="pdk,qcom_msm8x26" revision="lineage-18.1" />
   <project path="external/zlib" name="crdroid-security/android_external_zlib" remote="crdroid" />
 
