@@ -689,7 +689,7 @@
   <project path="prebuilts/vndk/v29" name="platform/prebuilts/vndk/v29" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="system/apex" name="platform/system/apex" groups="pdk" remote="aosp" />
-  <project path="system/bt" name="LineageOS/android_system_bt" groups="pdk" />
+  <!--<project path="system/bt" name="LineageOS/android_system_bt" groups="pdk" />-->
   <!--<project path="system/bpf" name="platform/system/bpf" groups="pdk" remote="aosp" />-->
   <project path="system/bpfprogs" name="platform/system/bpfprogs" groups="pdk" remote="aosp" />
   <project path="system/ca-certificates" name="LineageOS/android_system_ca-certificates" groups="pdk" />
@@ -786,6 +786,7 @@
   <project path="tools/treble" name="platform/tools/treble" groups="tools,pdk" remote="aosp" />
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" remote="aosp" />
 
+  <include name="snippets/crdroid-security.xml" />
   <include name="snippets/crdroid.xml" />
   <include name="snippets/lineage.xml" />
 

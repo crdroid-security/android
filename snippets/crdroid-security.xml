@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- crDroid-security additions -->
+  <project path="android" name="crdroid-security/android" remote="crdroid" />
+
+  <project path="build/make" name="crdroid-security/android_build" remote="crdroid" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+
+  <project path="frameworks/av" name="crdroid-security/android_frameworks_av" remote="crdroid" />
+  <project path="frameworks/base" name="crdroid-security/android_frameworks_base" remote="crdroid" />
+
+  <project path="system/bt" name="crdroid-security/android_system_bt" groups="pdk" />
+
+  <project path="vendor/lineage" name="crdroid-security/android_vendor_crdroid" remote="crdroid" />
+  <project path="vendor/qcom/opensource/commonsys/system/bt" name="crdroid-security/android_vendor_qcom_opensource_system_bt" remote="crdroid" />
+</manifest>
