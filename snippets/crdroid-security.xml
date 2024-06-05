@@ -14,6 +14,8 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
 
+  <project path="external/sonivox" name="crdroid-security/android_external_sonivox" groups="pdk" />
+
   <project path="frameworks/av" name="crdroid-security/android_frameworks_av" remote="crdroid" />
   <project path="frameworks/base" name="crdroid-security/android_frameworks_base" remote="crdroid" />
 
