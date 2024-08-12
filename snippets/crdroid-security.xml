@@ -59,6 +59,7 @@
   <project path="system/bt" name="crdroid-security/android_system_bt" remote="crdroid" />
   <project path="system/ca-certificates" name="crdroid-security/android_system_ca-certificates" groups="pdk" />
   <project path="system/core" name="crdroid-security/android_system_core" remote="crdroid" />
+  <project path="system/libfmq" name="crdroid-security/android_system_libfmq" groups="pdk" />
   <project path="system/netd" name="crdroid-security/android_system_netd" remote="crdroid" />
   <project path="system/nfc" name="crdroid-security/android_system_nfc" groups="pdk" />
   <project path="system/sepolicy" name="crdroid-security/android_system_sepolicy" remote="crdroid" />
