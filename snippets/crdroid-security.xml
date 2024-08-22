@@ -22,6 +22,7 @@
   <project path="packages/providers/MediaProvider" name="crdroid-security/android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" />
 
   <project path="system/bt" name="crdroid-security/android_system_bt" remote="crdroid" />
+  <project path="system/libfmq" name="crdroid-security/android_system_libfmq" groups="pdk" />
 
   <project path="vendor/lineage" name="crdroid-security/android_vendor_crdroid" remote="crdroid" />
   <project path="vendor/qcom/opensource/commonsys/system/bt" name="crdroid-security/android_vendor_qcom_opensource_system_bt" remote="crdroid" />
