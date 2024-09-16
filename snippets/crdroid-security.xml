@@ -24,6 +24,7 @@
   <project path="external/chromium-webview/prebuilt/arm64" name="LineageOS/android_external_chromium-webview_prebuilt_arm64" groups="pdk" revision="main" />
   <project path="external/chromium-webview/prebuilt/x86" name="LineageOS/android_external_chromium-webview_prebuilt_x86" groups="pdk" revision="main" />
   <project path="external/chromium-webview/prebuilt/x86_64" name="LineageOS/android_external_chromium-webview_prebuilt_x86_64" groups="pdk" revision="main" />
+  <project path="external/expat" name="crdroid-security/android_external_expat" groups="pdk" />
   <project path="external/freetype" name="crdroid-security/android_external_freetype" groups="pdk" />
   <project path="external/libcups" name="crdroid-security/android_external_libcups" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/libvpx" name="crdroid-security/android_external_libvpx" remote="crdroid" />
