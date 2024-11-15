@@ -56,7 +56,7 @@
   <project path="hardware/interfaces" name="crdroidandroid/android_hardware_interfaces" remote="crdroid" />
   <project path="hardware/lineage/interfaces" name="crdroidandroid/android_hardware_lineage_interfaces" remote="crdroid" />
 
-  <project path="libcore" name="crdroidandroid/android_libcore" remote="crdroid" />
+  <!--<project path="libcore" name="crdroidandroid/android_libcore" remote="crdroid" />-->
 
   <project path="lineage-sdk" name="crdroidandroid/android_lineage-sdk" remote="crdroid" />
 

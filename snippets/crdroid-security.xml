@@ -40,6 +40,8 @@
   <project path="frameworks/opt/net/wifi" name="crdroid-security/android_frameworks_opt_net_wifi" remote="crdroid" />
   <project path="frameworks/opt/telephony" name="crdroid-security/android_frameworks_opt_telephony" remote="crdroid" />
 
+  <project path="libcore" name="crdroid-security/android_libcore" remote="crdroid" />
+
   <project path="packages/apps/Bluetooth" name="crdroid-security/android_packages_apps_Bluetooth" remote="crdroid" />
   <project path="packages/apps/Camera2" name="crdroid-security/android_packages_apps_Camera2" groups="pdk-fs" />
   <project path="packages/apps/Car/Settings" name="crdroid-security/android_packages_apps_Car_Settings" groups="pdk-fs" />
