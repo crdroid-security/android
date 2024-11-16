@@ -75,7 +75,7 @@
   <project path="hardware/qcom-caf/sm8350/media" name="crdroidandroid/android_hardware_qcom_media" revision="11.0-caf-sm8350" />
   <project path="hardware/ril" name="crdroidandroid/android_hardware_ril" remote="crdroid" />
 
-  <project path="libcore" name="crdroidandroid/android_libcore" remote="crdroid" />
+  <!--<project path="libcore" name="crdroidandroid/android_libcore" remote="crdroid" />-->
 
   <project path="lineage-sdk" name="crdroidandroid/android_lineage-sdk" remote="crdroid" />
 
@@ -132,7 +132,7 @@
   <!--<project path="vendor/lineage" name="crdroidandroid/android_vendor_crdroid" remote="crdroid" />-->
   <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="crdroidandroid/android_vendor_qcom_opensource_bluetooth-commonsys-intf" remote="crdroid" />
   <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="crdroidandroid/android_vendor_qcom_opensource_bluetooth_ext" remote="crdroid" />
-  <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="crdroidandroid/android_vendor_qcom_opensource_packages_apps_Bluetooth" remote="crdroid" />
+  <!--<project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="crdroidandroid/android_vendor_qcom_opensource_packages_apps_Bluetooth" remote="crdroid" />-->
   <!--<project path="vendor/qcom/opensource/commonsys/system/bt" name="crdroidandroid/android_vendor_qcom_opensource_system_bt" remote="crdroid" />-->
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="crdroidandroid/android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="crdroid" />
   <project path="vendor/qcom/opensource/power" name="crdroidandroid/android_vendor_qcom_opensource_power" remote="crdroid" />

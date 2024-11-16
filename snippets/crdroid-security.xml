@@ -19,6 +19,9 @@
   <project path="frameworks/av" name="crdroid-security/android_frameworks_av" remote="crdroid" />
   <project path="frameworks/base" name="crdroid-security/android_frameworks_base" remote="crdroid" />
 
+  <project path="libcore" name="crdroid-security/android_libcore" remote="crdroid" />
+
+  <project path="packages/apps/Bluetooth" name="crdroid-security/android_packages_apps_Bluetooth" remote="crdroid" />
   <project path="packages/apps/Settings" name="crdroid-security/android_packages_apps_Settings" remote="crdroid" />
   <project path="packages/providers/MediaProvider" name="crdroid-security/android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/services/Telecomm" name="crdroid-security/android_packages_services_Telecomm" remote="crdroid" />
@@ -27,5 +30,6 @@
   <project path="system/libfmq" name="crdroid-security/android_system_libfmq" groups="pdk" />
 
   <project path="vendor/lineage" name="crdroid-security/android_vendor_crdroid" remote="crdroid" />
+  <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="crdroid-security/android_vendor_qcom_opensource_packages_apps_Bluetooth" remote="crdroid" />
   <project path="vendor/qcom/opensource/commonsys/system/bt" name="crdroid-security/android_vendor_qcom_opensource_system_bt" remote="crdroid" />
 </manifest>
