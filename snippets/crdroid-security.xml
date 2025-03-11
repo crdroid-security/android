@@ -14,6 +14,11 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
 
+  <project path="build/soong" name="crdroid-security/android_build_soong" remote="crdroid" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
   <project path="external/aac" name="crdroid-security/android_external_aac" groups="pdk" />
   <project path="external/chromium-webview/patches" name="LineageOS/android_external_chromium-webview_patches" groups="pdk" revision="main" >
     <linkfile src="Android.mk" dest="external/chromium-webview/Android.mk" />
@@ -24,6 +29,7 @@
   <project path="external/chromium-webview/prebuilt/arm64" name="LineageOS/android_external_chromium-webview_prebuilt_arm64" groups="pdk" revision="main" />
   <project path="external/chromium-webview/prebuilt/x86" name="LineageOS/android_external_chromium-webview_prebuilt_x86" groups="pdk" revision="main" />
   <project path="external/chromium-webview/prebuilt/x86_64" name="LineageOS/android_external_chromium-webview_prebuilt_x86_64" groups="pdk" revision="main" />
+  <project path="external/dng_sdk" name="crdroid-security/android_external_dng_sdk" groups="pdk" />
   <project path="external/expat" name="crdroid-security/android_external_expat" groups="pdk" />
   <project path="external/freetype" name="crdroid-security/android_external_freetype" groups="pdk" />
   <project path="external/giflib" name="crdroid-security/android_external_giflib" groups="pdk,qcom_msm8x26" />
@@ -55,6 +61,7 @@
   <project path="packages/apps/Settings" name="crdroid-security/android_packages_apps_Settings" remote="crdroid" />
   <project path="packages/apps/Traceur" name="crdroid-security/android_packages_apps_Traceur" groups="pdk-fs" />
   <project path="packages/apps/TvSettings" name="crdroid-security/android_packages_apps_TvSettings" groups="pdk-fs" />
+  <project path="packages/providers/DownloadProvider" name="crdroid-security/android_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-f" />
   <project path="packages/providers/MediaProvider" name="crdroid-security/android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/TelephonyProvider" name="crdroid-security/android_packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/services/BuiltInPrintService" name="crdroid-security/android_packages_services_BuiltInPrintService" groups="pdk-cw-fs,pdk-fs" />
