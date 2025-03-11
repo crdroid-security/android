@@ -14,6 +14,7 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
 
+  <project path="external/dng_sdk" name="crdroid-security/android_external_dng_sdk" groups="pdk" />
   <project path="external/skia" name="crdroid-security/android_external_skia" remote="crdroid" />
   <project path="external/sonivox" name="crdroid-security/android_external_sonivox" groups="pdk" />
 
@@ -26,6 +27,7 @@
 
   <project path="packages/apps/Bluetooth" name="crdroid-security/android_packages_apps_Bluetooth" remote="crdroid" />
   <project path="packages/apps/Settings" name="crdroid-security/android_packages_apps_Settings" remote="crdroid" />
+  <project path="packages/providers/DownloadProvider" name="crdroid-security/android_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/MediaProvider" name="crdroid-security/android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/services/Telecomm" name="crdroid-security/android_packages_services_Telecomm" remote="crdroid" />
   <project path="packages/services/Telephony" name="crdroid-security/android_packages_services_Telephony" remote="crdroid" />
